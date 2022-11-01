@@ -1,20 +1,38 @@
 fun main() {
     println("===================== Início ======================")
-    println("Soma:" +sum(1,2))
-    println("Subtração:" +sub(1,2))
-    println("Multiplicação:" +multi(1,2))
-    println("Divisão:" +div(1,2))
-    println("Resto:" +rest(1,2))
+    println("===================== Exemplos de funções ======================")
+    Functions().func()
+    println("===================== Fim dasfunções ======================")
+    println("===================== Strings ======================")
+    ManipulandoStrings().str()
+    println("===================== Fim Strings ======================")
+    println("===================== Cálculos ======================")
+    Math().calc()
+    println("===================== Fim Cálculos ======================")
+    println("===================== Condicionais ======================")
+    Condicionais().conditionals(19)
+    println("===================== Fim Condicionais ======================")
+    println("===================== When ======================")
+    ExempleWhen().Exemple(2)
+    ExempleWhen().ExempleIn(50)
+    println("===================== Fim When ======================")
+    println("===================== ReadData ======================")
+    ReadData().ReadInfo()
+    println("===================== Fim ReadData ======================")
+    println("===================== For ======================")
+    ExempleFor().Exemple()
+    println("===================== Fim For ======================")
+    println("===================== While ======================")
+    WhileExemple().Exemplewhile()
+    println("===================== Fim While ======================")
+    println("===================== Do While ======================")
+    ExempleDoWhile().doExemple()
+    println("===================== Fim Do While ======================")
+    println("===================== Null ======================")
+    NullPoinerKT().nullExemple()
+    println("===================== Fim Do Null ======================")
+    println("===================== Elvis ======================")
+    Elvis().ExempleElvis()
+    println("===================== Fim Do Null ======================")
     println("===================== Fim ======================")
 }
-fun sum(a: Int, b:Int):Int{
-    return a+b
-}
-fun sub(a: Int, b:Int):Int{
-    return a-b
-}
-fun multi(a: Int, b:Int):Int = a*b
-
-fun div(a: Int, b:Int):Int= a/b
-
-fun rest(a: Int, b:Int):Int= a%b
