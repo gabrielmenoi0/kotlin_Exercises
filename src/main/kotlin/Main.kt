@@ -33,6 +33,9 @@ fun main() {
     println("===================== Fim Do Null ======================")
     println("===================== Elvis ======================")
     Elvis().ExempleElvis()
-    println("===================== Fim Do Null ======================")
+    println("===================== Fim Do Elvis ======================")
+    println("===================== Mais sobre funções ======================")
+    MoreFunctions().ExempleMore()
+    println("===================== Fim mais sobre funções ======================")
     println("===================== Fim ======================")
 }
